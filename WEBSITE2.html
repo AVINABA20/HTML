@@ -19,6 +19,51 @@
                         text-align: center;
                         font-color: rgb(213, 61, 8);
                     }
+                    #header-nav {
+    border-radius: 0;
+    border: 0;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  font-family: 'Times New Roman', Times, serif, serif;
+  color: #951C49;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+                    h2{
+                        font-family: 'Pacifico', monospace;
+                        font-size: 45px;
+                        text-align: center;
+                        font-color: rgb(213, 61, 8);
+                    }
                     h3{
                         font-family: 'Dancing Script', monospace;
                     }
@@ -49,41 +94,77 @@
                   } 
                   .text-center{
                       text-align: center;
-                  }      
+                  } 
+                  .jar{
+                      border: 4px solid black;
+                      outline: 4px  solid red:
+                      outline-offset: 15px:
+                  }     
         </style>    
     </head> 
     <body>
+        <header>
+            <nav id="header-nav" class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="index.html"><h1><span class="glyphicon glyphicon-off"></span> TechnoBrats</h1></a>
+                    </div>
+                    <button type="button" class="btn navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                  </div>
+                  <div id="collapsable-nav" class="collapse navbar-collapse">                  
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a></li>
+                        <li class="active"><a href="news1"><span class="glyphicon glyphicon-text-background"></span> <br class="hidden-xs"> Articles</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> <br class="hidden-xs"> About Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+     </header><!--nav-->
           <div class="container-fluid backgroung-color ">
-              <h1> Razor Valarie </h1></div>
-            <div class="jumbotron"><div class="row"><div class="col-xs-12"  style="background-color: #000333"><img class="img-responsive image border" alt="Images of R V" src="http://assets2.razerzone.com/images/project-valerie/a8873c2a2de45360e07499c500cb7a27-usp1-01.png"></div>
-            <!--<div class="col-xs-4"><img class="img-responsive image border" alt="Images of R V" src="http://www.lifo.gr/icache/500/333/1/1121253_https-//blueprint-api-production.s3.amazonaws.com/uploads/card/image/335376/9259af9d-f985-4e0a-bf89-7d927de18946.jpg"></div>
-            <div class="col-xs-4"><img class="img-responsive image border" alt="Images of R V" src="https://cdn2.cnet.com/img/YfE3L7DcwJnbX4-mocYnfRvrYy4=/770x433/2017/01/07/09321563-0d85-4f0b-957f-a3a911b89b23/escesrazervalerie.jpg"></div></div>-->
-            <h2 class="green">THE   FIRST   COMPUTER   WITH   TRIPLE   DISPLAY</h2>
-            <div class="row"><div class="col-xs-12"" style="background-color: #000000"><img class="img-responsive image border" alt="Images of R V" src="http://assets2.razerzone.com/images/project-valerie/580c499b307456959add2492d6f511aa-intro-01.png"></div>
+              <h1> Razor Valarie </h1>
+            <div class="jumbotron jar col-xs-offset-1">
+                <div class="row">
+                    <div class="col-xs-12"  style="background-color: #000333"><img class="img-responsive image border" alt="Images of R V" src="http://assets2.razerzone.com/images/project-valerie/a8873c2a2de45360e07499c500cb7a27-usp1-01.png"></div>
+                <h2 class="green">THE   FIRST   COMPUTER   WITH   TRIPLE   DISPLAY</h2>
+            <div class="row">
+                <div class="col-xs-12" style="background-color: #000000"><img class="img-responsive image border" alt="Images of R V" src="http://assets2.razerzone.com/images/project-valerie/580c499b307456959add2492d6f511aa-intro-01.png"></div>
             <p>Immersive gaming has never been more portable. Introducing Project Valerie, the world’s first automated triple display laptop. Constructed to be incredibly powerful yet mobile, this revolutionary laptop gives you easy access to three eye-popping 4K displays. Regardless of where you are, you can have the visual superiority of a 12K desktop setup to excel at both work and play.</p>
             <h2 class="green">SPECIAL GAMING EXPERIENCE</h2>
             <p>Featuring three stunning high resolution 17.3 inch 4K screens, Project Valerie provides the most expansive viewing experience in a notebook. Powered by an NVIDIA® GeForce® GTX 1080 GPU, and natively supporting NVIDIA Surround View with a whopping resolution of 11520 x 2160, get a wider view of the race track or the battlefield for an unmatched immersive experience.</p>
             <h2 class="green" style="text-align: right">PRODUCTIVITY IS TYRIPLED DUE TO POWER PACKED</h2>
-            <div class="row"><div class="col-xs-6"  ><img class="img-responsive image border" alt="Images of R V" src="https://mybroadband.co.za/news/wp-content/uploads/2017/01/Razer-Project-Valerie-1.jpg"></div>
-           <div class="col-xs-6"> <P style="margin-top: 28px;">The 12K multi-display gives you the expansive workspace and flexibility to tackle any task. Utilize the three displays as one to span your creative projects across the large screen real estate. Alternatively, take advantage of each display independently, running multiple applications simultaneously allowing for multi-tasking like never before.</P></div></div>
+            <div class="row">
+                <div class="col-xs-6"  ><img class="img-responsive image border" alt="Images of R V" src="https://mybroadband.co.za/news/wp-content/uploads/2017/01/Razer-Project-Valerie-1.jpg"></div>
+           <div class="col-xs-6"> <P style="margin-top: 28px;">The 12K multi-display gives you the expansive workspace and flexibility to tackle any task. Utilize the three displays as one to span your creative projects across the large screen real estate. Alternatively, take advantage of each display independently, running multiple applications simultaneously allowing for multi-tasking like never before.</P></div>
+           </div>
            <h2 class="green" style="text-align: left;">FULLY INTEGRATED, COMPLETELY AUTOMATED</h2>
-            <div class="row"> <div class="col-xs-6"> <P style="margin-top: 28px;">Without compromising on style or performance, Project Valerie is engineered with an automated deployment system utilizing highly durable aluminum hinges. This allows the two side displays to quickly deploy and lock into place ensuring the perfect alignment in a matter of seconds.</P></div>
+            <div class="row">
+                 <div class="col-xs-6"> <P style="margin-top: 28px;">Without compromising on style or performance, Project Valerie is engineered with an automated deployment system utilizing highly durable aluminum hinges. This allows the two side displays to quickly deploy and lock into place ensuring the perfect alignment in a matter of seconds.</P></div>
           <div class="col-xs-6" style="background-color: #000000"  ><img class="img-responsive " alt="Images of R V" src="https://technology.inquirer.net/files/2017/01/Valerie-Hinge.png"></div></div>
             <h2 class="green" style="text-align: center;">EASY TO STORE, MOVE</h2>
-             <div class="row"> <div class="col-xs-6"><img class="img-responsive " alt="Images of R V" src="http://www.guidingtech.com/assets/postimages/2017/01/razer3.png"></div>
-             <div class="col-xs-6"><p style="margin-top: 28px">While providing you with three truly stunning displays, Project Valerie stays incredibly portable with a form factor that is comparable to other 17 inch gaming laptops which only provide a single display. The compact chassis fits in your laptop bag so you can have a triple display desktop experience anywhere, anytime.</p></div></div>
-             <h1>!! G A L L E R Y !!</h1>
+             <div class="row">
+                  <div class="col-xs-6"><img class="img-responsive " alt="Images of R V" src="http://www.guidingtech.com/assets/postimages/2017/01/razer3.png"></div>
+             <div class="col-xs-6"><p style="margin-top: 28px">While providing you with three truly stunning displays, Project Valerie stays incredibly portable with a form factor that is comparable to other 17 inch gaming laptops which only provide a single display. The compact chassis fits in your laptop bag so you can have a triple display desktop experience anywhere, anytime.</p></div>
+             </div>
+             <h2>!! G A L L E R Y !!</h2>
               <div class="row">
                   <div class="col-xs-4"><a href="http://www.technobuffalo.com/wp-content/uploads/2017/01/razer-project-valerie-24.jpg"><img class="img-responsive width " alt="Images of R V" src="http://www.technobuffalo.com/wp-content/uploads/2017/01/razer-project-valerie-24.jpg"></div></a>
                   <div class="col-xs-4"><a href="https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2017/01/razer-project-valerie-open-front-hero.jpg?itok=uOPNKVSQ" ><img class="img-responsive width" alt="Images of R V" src="https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2017/01/razer-project-valerie-open-front-hero.jpg?itok=uOPNKVSQ"></div></a>
                   <div class="col-xs-4"><a href="http://assets2.razerzone.com/images/project-valerie/aab287cccef39a457800d62236a92a21-projvalerie-gallery-1500x1000_3.png"><img class="img-responsive width " alt="Images of R V" src="http://assets2.razerzone.com/images/project-valerie/aab287cccef39a457800d62236a92a21-projvalerie-gallery-1500x1000_3.png"></div></a>
-              </div></div> 
+              </div></div>
+                </div>
               <footer class="panel-footer">
                   <div class="container">
                       <div class="row">
                       <span>
                           <h4 class="text-center">    
                           "CREATED AND CODED BY -Avinaba Basak"</h4>
-                        <p1 style="# " class="text-center">CONTACT-www.basak.avinaba.420@gmail.com  (include "www.")</p1></span></div></div></footer>
+                        <p style="# " class="text-center">CONTACT-www.basak.avinaba.420@gmail.com       (include "www.")</p></span></div></div></footer>
     </body>       
 </html>    
